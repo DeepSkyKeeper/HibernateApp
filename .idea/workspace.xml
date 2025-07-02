@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69da9d9a-72ea-4398-a798-a2302c047ae7" name="Changes" comment="firstHibernateApp">
+    <list default="true" id="69da9d9a-72ea-4398-a798-a2302c047ae7" name="Changes" comment="id identity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/training/alishev/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/training/alishev/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/training/alishev/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/training/alishev/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <workItem from="1750693636699" duration="1479000" />
       <workItem from="1751040219662" duration="5147000" />
       <workItem from="1751385743628" duration="13000" />
-      <workItem from="1751385773511" duration="2582000" />
+      <workItem from="1751385773511" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="firstHibernateApp">
       <option name="closed" value="true" />
@@ -120,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751430924233</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="id identity">
+      <option name="closed" value="true" />
+      <created>1751431531645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751431531645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstHibernateApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstHibernateApp" />
+    <MESSAGE value="id identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="id identity" />
   </component>
 </project>
