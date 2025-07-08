@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="hibernate_demo_db">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.52">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <IntrospectionStateNumber>774</IntrospectionStateNumber>
@@ -4239,11 +4239,11 @@ false Zulu
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="267" parent="266" name="person_id_seq">
-      <DasType>integer|0s</DasType>
       <ObjectId>16416</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>773</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="268" parent="266" name="person">
@@ -4253,24 +4253,24 @@ false Zulu
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="269" parent="268" name="id">
-      <DasType>integer|0s</DasType>
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>773</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <SequenceId>16416</SequenceId>
       <TypeId>23</TypeId>
     </column>
     <column id="270" parent="268" name="name">
-      <DasType>varchar(20)|0s</DasType>
       <Position>2</Position>
       <StateNumber>773</StateNumber>
+      <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="271" parent="268" name="age">
-      <DasType>integer|0s</DasType>
       <Position>3</Position>
       <StateNumber>773</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <index id="272" parent="268" name="person_pkey">
